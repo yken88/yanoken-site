@@ -70,21 +70,26 @@ export const feedback = [
   },
 ];
 
-export const stats = [
+export const skills = [
   {
-    id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    id: "skills-1",
+    title: "Server side",
+    value: "Ruby, PHP",
   },
   {
-    id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    id: "skills-2",
+    title: "Front end",
+    value: "React",
   },
   {
-    id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    id: "skills-3",
+    title: "Infrastructure",
+    value: "AWS, GCP",
+  },
+  {
+    id: "skills-4",
+    title: "Tools",
+    value: "Git, Docker, Terraform",
   },
 ];
 
