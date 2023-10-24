@@ -1,5 +1,5 @@
 import styles from '../style';
-import { discount, robot } from '../assets';
+import { discount, robot, twice } from '../assets';
 import GetStarted from './GetStarted';
 
 const Hero = () => {
@@ -9,14 +9,14 @@ const Hero = () => {
         <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
           <img src={ discount } alt="discount" className="w-[32px] h-32px" />
           <p className={`#${styles.paragraph}`}>
-            <span className="text-white">20%</span> Discount For { " " }
-            <span className="text-white">1 MONTH</span> Account
+            <span className="text-white">バスケと</span>お酒
+            <span className="text-white">と料理が好きです</span>
           </p>
         </div>
         <div className="flex flex-row justify-between items-center w-full">
         <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px] ml-100px">
-          The Next <br className="sm:block hidden" /> { " " }
-          <span className="text-gradient">Generation</span> <br /> { " " }
+          I'm <br className="sm:block hidden" /> { " " }
+          <span className="text-gradient">Yanoken</span> <br /> { " " }
         </h1>
 
         <div className="ss:flex hidden md:mr-4 mr-0">
@@ -25,14 +25,14 @@ const Hero = () => {
       </div>
 
       <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
-        Payment Method.
+        Fukuoka, Japan
       </h1>
 
-      <p className={`${styles.paragraph} max-w-[470px]`}>Our team of experts uses a methodology to identify the credit cards most likely to fit your needs. We examine annual percentage rates, annual fees.</p>
+      <p className={`${styles.paragraph} max-w-[470px]`}>こんにちは。<br />プログラミングを勉強中です。自分のサイトを作ってみました。頑張ります。好きなキャラはトワイスです。色々カスタマイズして遊んでみます</p>
       </div>
 
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
-        <img src={robot} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
+        <img src={twice} alt="billing" className="w-[90%] h-[90%] relative z-[5]" />
          {/* gradient start */}
           <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
           <div className="absolute z-[1] w-[80%] h-[80%] rounded-full white__gradient bottom-40" />
