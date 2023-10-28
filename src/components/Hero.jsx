@@ -26,8 +26,8 @@ const Hero = () => {
           Junior <span className="color-gradient,">Engineer</span>
         </h1>
 
-        <p className={`${styles.paragraph} max-w-[470px]`}>名刺代わりに自分のサイトを作リマス<br />
-          トゥワイスは仮です。。。
+        <p className={`${styles.paragraph} max-w-[470px]`}>Create your own website instead of business cards.<br />
+        The logo of Twice is temporarily set up
         </p>
       </div>
 

@@ -4,7 +4,7 @@ import { skills } from '../constants';
 const Skills = () => {
   return (
     <section className="w-full">
-      <h2 className="text-3xl text-white ss:ml-0 ml-40 mb-2">Skills</h2>
+      <h2 className="text-3xl text-white ss:ml-0 ml-40">Skills</h2>
         <div className="flex ss:flex-row flex-col mb-10">
           {skills.map((skill) => (
             <div key={skill.id} className="text-white border-2 border-solid border-white md:w-1/4 md:m-8 m-2 pt-2 pb-4 px-4">
