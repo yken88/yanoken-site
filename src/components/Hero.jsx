@@ -9,26 +9,26 @@ const Hero = () => {
         <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
           <img src={ discount } alt="discount" className="w-[32px] h-32px" />
           <p className={`#${styles.paragraph}`}>
-            <span className="text-white">バスケと</span>お酒
-            <span className="text-white">と料理が好きです</span>
+            Based on Fukuoka. Japan
           </p>
         </div>
+
         <div className="flex flex-row justify-between items-center w-full">
-        <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px] ml-100px">
-          I'm <br className="sm:block hidden" /> { " " }
-          <span className="text-gradient">Yanoken</span> <br /> { " " }
+          <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px] ml-100px">
+            <span className="text-white">Kentaro Yano</span> <br /> { " " }
+          </h1>
+          <div className="ss:flex hidden md:mr-4 mr-0">
+            <GetStarted />
+          </div>
+        </div>
+
+        <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
+          Junior <span className="color-gradient,">Engineer</span>
         </h1>
 
-        <div className="ss:flex hidden md:mr-4 mr-0">
-          <GetStarted />
-        </div>
-      </div>
-
-      <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
-        Fukuoka, Japan
-      </h1>
-
-      <p className={`${styles.paragraph} max-w-[470px]`}>こんにちは。<br />プログラミングを勉強中です。自分のサイトを作ってみました。頑張ります。好きなキャラはトワイスです。色々カスタマイズして遊んでみます</p>
+        <p className={`${styles.paragraph} max-w-[470px]`}>名刺代わりに自分のサイトを作リマス<br />
+          トゥワイスは仮です。。。
+        </p>
       </div>
 
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
@@ -38,10 +38,6 @@ const Hero = () => {
           <div className="absolute z-[1] w-[80%] h-[80%] rounded-full white__gradient bottom-40" />
           <div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient" />
         {/* gradient end */}
-      </div>
-
-      <div className={`ss:hidden ${styles.flexCenter}`}>
-        GetStarted
       </div>
     </section>
   )
