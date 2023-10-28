@@ -83,7 +83,7 @@ export const skills = [
   },
   {
     id: "skills-3",
-    title: "Infrastructure",
+    title: "Cloud",
     value: "AWS, GCP",
   },
   {
