@@ -1,5 +1,9 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 import styles from './style';
 import { Navbar, Hero, Skills, Footer } from './components';
+import { Blogs } from './components/pages/Blogs';
+import { Home } from './components/pages/Home';
 
 const App = () => {
   return (
@@ -9,20 +13,12 @@ const App = () => {
           <Navbar />
         </div>
       </div>
-
-      <div className={`bg-primary ${styles.flexStart}`}>
-        <div className={`${styles.boxWidth}`}>
-         <Hero />
-        </div>
-      </div>
-
-      <div className={`bg-primary  ${styles.paddingX} ${styles.flexStart}`}>
-        <div className={`${styles.boxWidth}`}>
-          <Skills />
-          <Footer />
-        </div>
-      </div>
-    
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/blogs" element={<Blogs />} />
+        </Routes>
+      </Router>    
     </div>
   )
 }
