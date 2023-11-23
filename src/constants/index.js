@@ -176,3 +176,26 @@ export const clients = [
     logo: dropbox,
   },
 ];
+
+export const blogs = [
+  {
+    id: "blog-1",
+    title: "How to get a credit card",
+    content: "The best credit cards offer some tantalizing combinations of promotions and prizes",
+  },
+  {
+    id: "blog-2",
+    title: "How to play a game",
+    content: "game is very fun and exciting for me and my friends",
+  },
+  {
+    id: "blog-3",
+    title: "Music is my life",
+    content: "Music sings my life and I can't live without it",
+  },
+  {
+    id: "blog-4",
+    title: "Music is my life",
+    content: "Music sings my life and I can't live without it",
+  },
+];
