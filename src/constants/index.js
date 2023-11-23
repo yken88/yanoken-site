@@ -2,8 +2,8 @@ import { people01, people02, people03, facebook, instagram, linkedin, twitter, a
 
 export const navLinks = [
   {
-    id: "home",
-    title: "Home",
+    id: "blogs",
+    title: "Blogs",
   },
   {
     id: "features",
@@ -95,65 +95,41 @@ export const skills = [
 
 export const footerLinks = [
   {
-    title: "Useful Links",
+    title: "Links",
     links: [
       {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
-      },
-      {
-        name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
-      },
-      {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
-      },
-      {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
-      },
-      {
-        name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
+        name: "特になし",
+        link: "#",
       },
     ],
   },
   {
-    title: "Community",
+    title: "🎦 Favorite",
     links: [
       {
-        name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
+        name: "🏀 Basket Ball",
+        link: "#",
       },
       {
-        name: "Partners",
-        link: "https://www.hoobank.com/partners/",
+        name: "🎤 HIPHOP",
+        link: "#",
       },
       {
-        name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
+        name: "🍳 Cooking",
+        link: "#",
       },
       {
-        name: "Blog",
-        link: "https://www.hoobank.com/blog/",
-      },
-      {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
+        name: "🎙 Karaoke",
+        link: "#",
       },
     ],
   },
   {
-    title: "Partner",
+    title: "habitat",
     links: [
       {
-        name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
-      },
-      {
-        name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
+        name: "📍 Fukuoka",
+        link: "#",
       },
     ],
   },
@@ -198,5 +174,28 @@ export const clients = [
   {
     id: "client-4",
     logo: dropbox,
+  },
+];
+
+export const blogs = [
+  {
+    id: "blog-1",
+    title: "How to get a credit card",
+    content: "The best credit cards offer some tantalizing combinations of promotions and prizes",
+  },
+  {
+    id: "blog-2",
+    title: "How to play a game",
+    content: "game is very fun and exciting for me and my friends",
+  },
+  {
+    id: "blog-3",
+    title: "Music is my life",
+    content: "Music sings my life and I can't live without it",
+  },
+  {
+    id: "blog-4",
+    title: "Music is my life",
+    content: "Music sings my life and I can't live without it",
   },
 ];
